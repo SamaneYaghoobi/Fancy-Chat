@@ -3,14 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import {Button} from './StyledComponents/Button';
 
-import {Colors} from "./StyledComponents/Vars";
+import RoomSidebar from "./RoomsSidebar/RoomList";
 
-let {PrimaryColor} = Colors;
-console.log('PrimaryColor :', PrimaryColor);
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <RoomSidebar>سلامممم دنیاااا</RoomSidebar>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

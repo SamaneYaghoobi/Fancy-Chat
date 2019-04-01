@@ -17,4 +17,5 @@ body {
   font-family: Vazir !important;
   direction: rtl;
   text-align: right;
+  cursor: default;
 }
