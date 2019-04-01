@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Button} from './StyledComponents/Button';
 
+import {Colors} from "./StyledComponents/Vars";
+
+let {PrimaryColor} = Colors;
+console.log('PrimaryColor :', PrimaryColor);
 class App extends Component {
   render() {
     return (
@@ -17,6 +22,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
+          <Button dark>ایجاد اتاق گفتگو</Button>
             Learn React
           </a>
         </header>
