@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button,FAButton} from '../../StyledComponents';
+import {Button, FAButton} from '../../StyledComponents';
 
 class FAB extends Component {
   constructor (props) {
@@ -7,9 +7,9 @@ class FAB extends Component {
     this.state = {openFAB: false};
   }
   render () {
-    let FABClass = this.state.openFAB
-      ? 'float-btn-group open'
-      : 'float-btn-group';
+    let FABClass = 'float-btn-group';
+    FABClass = this.state.openFAB ? FABClass + ' open' : FABClass;
+    
     return (
       <FAButton>
         <div className={FABClass}>
