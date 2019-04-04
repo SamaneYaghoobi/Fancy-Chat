@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Sidebar, Title, Hr, RoomName} from '../../StyledComponents/Sidebar';
+import {Sidebar, Title, RoomName} from '../../StyledComponents';
+
 class RoomSidebar extends Component {
   constructor (props) {
     super (props);
@@ -11,7 +12,7 @@ class RoomSidebar extends Component {
         <Title>
           اتاق‌های گفتگو
         </Title>
-        <Hr />
+        <hr />
         <RoomName>اتاق تست</RoomName>
         <RoomName>1اتاق تست</RoomName>
         <RoomName>اتاق تس2ت</RoomName>
