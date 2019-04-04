@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Sidebar, Title, RoomName} from '../../StyledComponents';
-
+import  FAB  from '../../Footer/FAB';
 class RoomSidebar extends Component {
   constructor (props) {
     super (props);
@@ -19,6 +19,7 @@ class RoomSidebar extends Component {
         <RoomName>اتاق2 تست</RoomName>
         <RoomName>اتاق3 تست</RoomName>
         <RoomName>اتاق4 تست</RoomName>
+        <FAB/>
       </Sidebar>
     );
   }

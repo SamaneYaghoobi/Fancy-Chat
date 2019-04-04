@@ -1,5 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import {Button} from './StyledComponents';
 import RoomSidebar from './RoomsSidebar/RoomList';
 
 class App extends Component {
@@ -7,7 +6,6 @@ class App extends Component {
     return (
       <Fragment>
         <RoomSidebar />
-        <Button dark>ایجاد اتاق گفتگو</Button>
       </Fragment>
     );
   }
