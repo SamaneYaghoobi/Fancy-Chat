@@ -15,8 +15,7 @@ export const Button = styled.button`
   padding: 0.5em 2em; 
 `;
 
-export const FAButton = styled.div`
-  width: 20vw;
+export const FABcontainer = styled.div`
   position: fixed;
   bottom: 0;
   right: 5em;
@@ -30,6 +29,8 @@ export const FAButton = styled.div`
     color: #fff;
     text-align: center;
     position: relative;
+    z-index: 15;
+    float: left;
     background: #ffd3b6;
     transition: 0.5s;
     border-radius: 50%;
@@ -78,15 +79,11 @@ export const FAButton = styled.div`
     padding-left: 15px;
     min-height: 70px;
   }
-
-  .float-btn-group .btn-triger {
-    z-index: 15;
-    float: left;
-  }
-
+  
   .float-btn-group .btn-list {
     position: absolute;
     right: 0;
+    line-height: 70px;
     transition: 0.5s;
     opacity: 0;
     width: 215px;

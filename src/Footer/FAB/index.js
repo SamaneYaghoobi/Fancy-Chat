@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button, FAButton} from '../../StyledComponents';
+import {Button, FABcontainer} from '../../StyledComponents';
 
 class FAB extends Component {
   constructor (props) {
@@ -7,25 +7,22 @@ class FAB extends Component {
     this.state = {openFAB: false};
   }
   render () {
-    let FABClass = 'float-btn-group';
-    FABClass = this.state.openFAB ? FABClass + ' open' : FABClass;
-    
     return (
-      <FAButton>
-        <div className={FABClass}>
+      <FABcontainer>
+        <div
+          className={`float-btn-group ${this.state.openFAB && ' open'}`}
+        >
           <button
-            className="btn-float btn-triger"
+            className="btn-float"
             onClick={() => this.setState ({openFAB: !this.state.openFAB})}
           >
             <i className="icon-bars" />
           </button>
           <div className="btn-list">
-            <a className="btn-float" href="#">
-              <Button dark>ایجاد اتاق گفتگو</Button>
-            </a>
+            <Button dark>ایجاد اتاق گفتگو</Button>
           </div>
         </div>
-      </FAButton>
+      </FABcontainer>
     );
   }
 }
