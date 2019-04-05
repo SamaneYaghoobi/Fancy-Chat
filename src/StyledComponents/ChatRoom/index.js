@@ -13,5 +13,6 @@ export const ChatRoomContainer = styled.div`
   border-left: #555;
   overflow-y: scroll;
   overflow-x: hidden;
+  height: 100vh;
   padding: 0;
 `;

@@ -14,6 +14,7 @@ export const Sidebar = styled.div`
   border-left: #555;
   overflow-y: scroll;
   overflow-x: hidden;
+  height: 100vh;
   padding: 2em; 
   hr{
     color: #ffd3b6;
