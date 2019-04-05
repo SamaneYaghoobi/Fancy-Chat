@@ -16,6 +16,39 @@ class ChatRoom extends Component {
           </li>
           <li class="mine"><span>Sure, it’s yours.</span></li>
           <li><span>Wait right here.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
+          <li class="mine"><span>I have something for you.</span></li>
           <li><span>I’ll try it on right now.</span></li>
         </ol>
       </ChatRoomContainer>
