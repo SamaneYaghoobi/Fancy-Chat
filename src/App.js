@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import RoomSidebar from './RoomsSidebar/RoomList';
+import RoomSidebar from './RoomsSidebar';
 
 class App extends Component {
   render () {

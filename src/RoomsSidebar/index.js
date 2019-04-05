@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {Sidebar, Title, RoomName} from '../../StyledComponents';
-import  FAB  from '../../Footer/FAB';
+import {Sidebar, Title, RoomName} from '../StyledComponents';
+import  FAB  from '../Footer/FAB';
+
 class RoomSidebar extends Component {
   constructor (props) {
     super (props);
