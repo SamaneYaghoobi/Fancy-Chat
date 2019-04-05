@@ -4,14 +4,14 @@ import {Colors} from '../Vars';
 let {PrimaryColor, WhiteColor} = Colors;
 
 export const Sidebar = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   font-size: 1em;
   text-align: center;
   color: ${WhiteColor};
   background-color: ${PrimaryColor};
   border-left: #555;
-  width: 20vw;
-  position: relative;
-  right: 0;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100vh;

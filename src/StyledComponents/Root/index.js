@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import styled, {createGlobalStyle} from 'styled-components';
 
 export const AppRoot = createGlobalStyle`
   * {
@@ -7,4 +7,9 @@ export const AppRoot = createGlobalStyle`
     direction: rtl;
     cursor: default;
   }
+`;
+
+export const Root = styled.div`
+  display:flex;
+  flex-direction: row;
 `;

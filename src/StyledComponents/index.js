@@ -1,3 +1,4 @@
 export {Button, FABcontainer} from './Button/index';
-export {AppRoot} from './Root/index';
+export {AppRoot,Root} from './Root/index';
 export {Sidebar, Title, RoomName} from './Sidebar/index';
+export {ChatRoomContainer} from './ChatRoom';

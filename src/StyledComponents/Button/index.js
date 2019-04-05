@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 import {Colors} from '../Vars';
 
-let {PrimaryColor} = Colors;
+let {PrimaryColor,WhiteColor} = Colors;
 
 const border = borderColor => `2px solid ${borderColor}`;
 
 export const Button = styled.button`
   font-size: 1em;
   text-align: center;
-  background-color: ${props => (props.light ? '#fff' : PrimaryColor)};
-  color: ${props => (props.light ? PrimaryColor : '#fff')};
-  border: ${props => (props.light ? border (PrimaryColor) : border ('#fff'))};
+  background-color: ${props => (props.light ? WhiteColor : PrimaryColor)};
+  color: ${props => (props.light ? PrimaryColor : WhiteColor)};
+  border: ${props => (props.light ? border (PrimaryColor) : border (WhiteColor))};
   border-radius: 25px;
   padding: 0.5em 2em; 
 `;
@@ -26,7 +26,7 @@ export const FABcontainer = styled.div`
     height: 70px;
     line-height: 70px;
     border: none;
-    color: #fff;
+    color: ${WhiteColor};
     text-align: center;
     position: relative;
     z-index: 15;
